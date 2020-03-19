@@ -8,8 +8,12 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "HomeController.h"
+#import "VideoController.h"
+#import "LikeController.h"
+#import "UserController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <UITabBarControllerDelegate>
 
 @end
 
@@ -21,13 +25,29 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    ViewController *con = [[ViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:con];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    HomeController *home = [[HomeController alloc] init];
+    
+    VideoController *video = [[VideoController alloc] init];
+    
+    LikeController *like = [[LikeController alloc] init];
+    
+    UserController *user = [[UserController alloc] init];
+    
+    [tabBarController setViewControllers:@[home, video, like, user]];
+    tabBarController.delegate = self;
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tabBarController];
 
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+    NSLog(@"did select");
 }
 
 @end

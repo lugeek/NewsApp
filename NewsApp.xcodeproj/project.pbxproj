@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71D24CD240BE94800E192AF /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D24CC240BE94800E192AF /* VideoController.m */; };
+		C71D24D0240BE96200E192AF /* LikeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D24CF240BE96200E192AF /* LikeController.m */; };
+		C71D24D3240BE97400E192AF /* UserController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D24D2240BE97400E192AF /* UserController.m */; };
+		C76BBCB52417895E00A1A70C /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C76BBCB42417895E00A1A70C /* HomeViewCell.m */; };
+		C76BBCB92418BF2300A1A70C /* NewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76BBCB82418BF2300A1A70C /* NewsDetailController.m */; };
+		C76BBCBC2419047300A1A70C /* HomePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76BBCBB2419047300A1A70C /* HomePopView.m */; };
 		C79216B7238D4EBA007F989B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79216B6238D4EBA007F989B /* AppDelegate.m */; };
 		C79216BD238D4EBA007F989B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79216BC238D4EBA007F989B /* ViewController.m */; };
 		C79216C2238D4EBC007F989B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79216C1238D4EBC007F989B /* Assets.xcassets */; };
 		C79216C8238D4EBC007F989B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79216C7238D4EBC007F989B /* main.m */; };
+		C79216D5238E1589007F989B /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79216D4238E1589007F989B /* HomeController.m */; };
+		C7EFE53024236E2C00AA17B7 /* HomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFE52F24236E2C00AA17B7 /* HomeRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C71D24CB240BE94800E192AF /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		C71D24CC240BE94800E192AF /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		C71D24CE240BE96200E192AF /* LikeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeController.h; sourceTree = "<group>"; };
+		C71D24CF240BE96200E192AF /* LikeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeController.m; sourceTree = "<group>"; };
+		C71D24D1240BE97400E192AF /* UserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserController.h; sourceTree = "<group>"; };
+		C71D24D2240BE97400E192AF /* UserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserController.m; sourceTree = "<group>"; };
+		C76BBCB32417895E00A1A70C /* HomeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		C76BBCB42417895E00A1A70C /* HomeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		C76BBCB72418BF2300A1A70C /* NewsDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDetailController.h; sourceTree = "<group>"; };
+		C76BBCB82418BF2300A1A70C /* NewsDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsDetailController.m; sourceTree = "<group>"; };
+		C76BBCBA2419047300A1A70C /* HomePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePopView.h; sourceTree = "<group>"; };
+		C76BBCBB2419047300A1A70C /* HomePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePopView.m; sourceTree = "<group>"; };
 		C79216B2238D4EBA007F989B /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79216B5238D4EBA007F989B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C79216B6238D4EBA007F989B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -22,6 +42,10 @@
 		C79216C1238D4EBC007F989B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79216C6238D4EBC007F989B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79216C7238D4EBC007F989B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C79216D4238E1589007F989B /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		C79216D7238E16C3007F989B /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		C7EFE52E24236E2C00AA17B7 /* HomeRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeRequest.h; sourceTree = "<group>"; };
+		C7EFE52F24236E2C00AA17B7 /* HomeRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C71D24C5240BB17000E192AF /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C71D24CB240BE94800E192AF /* VideoController.h */,
+				C71D24CC240BE94800E192AF /* VideoController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		C71D24C9240BE8F000E192AF /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				C71D24CE240BE96200E192AF /* LikeController.h */,
+				C71D24CF240BE96200E192AF /* LikeController.m */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		C71D24CA240BE90300E192AF /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C71D24D1240BE97400E192AF /* UserController.h */,
+				C71D24D2240BE97400E192AF /* UserController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C76BBCB62418BEDE00A1A70C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C76BBCB72418BF2300A1A70C /* NewsDetailController.h */,
+				C76BBCB82418BF2300A1A70C /* NewsDetailController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		C79216A9238D4EBA007F989B = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +114,11 @@
 		C79216B4238D4EBA007F989B /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C76BBCB62418BEDE00A1A70C /* Detail */,
+				C71D24CA240BE90300E192AF /* User */,
+				C71D24C9240BE8F000E192AF /* Like */,
+				C71D24C5240BB17000E192AF /* Video */,
+				C79216CF238E123E007F989B /* Home */,
 				C79216B5238D4EBA007F989B /* AppDelegate.h */,
 				C79216B6238D4EBA007F989B /* AppDelegate.m */,
 				C79216BB238D4EBA007F989B /* ViewController.h */,
@@ -63,6 +128,21 @@
 				C79216C7238D4EBC007F989B /* main.m */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		C79216CF238E123E007F989B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C79216D4238E1589007F989B /* HomeController.m */,
+				C79216D7238E16C3007F989B /* HomeController.h */,
+				C76BBCB32417895E00A1A70C /* HomeViewCell.h */,
+				C76BBCB42417895E00A1A70C /* HomeViewCell.m */,
+				C76BBCBA2419047300A1A70C /* HomePopView.h */,
+				C76BBCBB2419047300A1A70C /* HomePopView.m */,
+				C7EFE52E24236E2C00AA17B7 /* HomeRequest.h */,
+				C7EFE52F24236E2C00AA17B7 /* HomeRequest.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +213,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76BBCB92418BF2300A1A70C /* NewsDetailController.m in Sources */,
+				C79216D5238E1589007F989B /* HomeController.m in Sources */,
 				C79216BD238D4EBA007F989B /* ViewController.m in Sources */,
+				C76BBCBC2419047300A1A70C /* HomePopView.m in Sources */,
 				C79216B7238D4EBA007F989B /* AppDelegate.m in Sources */,
 				C79216C8238D4EBC007F989B /* main.m in Sources */,
+				C71D24D0240BE96200E192AF /* LikeController.m in Sources */,
+				C76BBCB52417895E00A1A70C /* HomeViewCell.m in Sources */,
+				C71D24CD240BE94800E192AF /* VideoController.m in Sources */,
+				C71D24D3240BE97400E192AF /* UserController.m in Sources */,
+				C7EFE53024236E2C00AA17B7 /* HomeRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

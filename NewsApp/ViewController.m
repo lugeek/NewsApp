@@ -10,8 +10,6 @@
 
 @interface ViewController ()
 
-
-
 @end
 
 @implementation ViewController
@@ -19,10 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    label.backgroundColor = [UIColor redColor];
-    label.text = @"hello";
-    [self.view addSubview:label];
+    self.titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    self.titleLabel.backgroundColor = [UIColor redColor];
+    self.titleLabel.text = @"hello";
+    [self.view addSubview:self.titleLabel];
 }
 
 
